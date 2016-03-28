@@ -1,0 +1,56 @@
+<section>
+	<div class="container">
+		<div class="col12">
+			<img src="/assets/images/{{$ctrl.demoPictureUrl}}" class="full-width demoImg" />
+		</div>
+		<header class="col12">
+			<h1 class="special">{{$ctrl.title}}</h1>
+			<h2 class="special"><span>{{$ctrl.subTitle}}</span></h2>
+		</header>
+		<div class="col9 pre3">
+			<p class="align-center">{{ $ctrl.about }}</p>
+		</div>
+		
+	</div>
+	<div class="clear-both"></div>
+</section>
+
+<section class="page" ng-if="$ctrl.summaryOne">
+	<div class="container">
+		<div class="col4 one-third-tab">
+			<img src="/assets/images/{{$ctrl.conceptPictureUrl}}" class="full-width" />
+		</div>
+		<div class="col8 two-third-tab">
+			<p class="special">{{$ctrl.summaryOne}}</p>
+		</div>
+	</div>
+	<div class="clear-both"></div>
+</section>
+<section class="page-regular" ng-if="$ctrl.extraPictureUrl">
+	<div class="container">
+		<div class="col12">
+			<img src="/assets/images/{{$ctrl.extraPictureUrl}}" class="full-width demoImg" />
+		</div>
+	</div>
+	<div class="clear-both"></div>
+</section>
+<section class="default">
+	<div class="container">
+		<header class="col12">
+			<br><br><br><br><br>
+			<h2 class="special"><span>Contribution</span></h2>
+		</header>
+		<div class="col5 one-third-tab align-right">
+			<p><b>Build</b></p>
+			<p><b>Core Work</b></p>
+			<p><b>Deliverables</b></p>
+		</div>
+		<div class="col6 two-third-tab align-left">
+			<p>{{$ctrl.languages}}</p>
+			<p>{{$ctrl.contribution}}</p>
+			<p>{{$ctrl.deliverables}}</p>
+			<p class="hard-copy"><a href="{{$ctrl.url}}" class="button inline-block">View Project</a><a href="#/" class="special-hover inline-block twenty-left">View Other Work</a></p>
+		</div>
+	</div>
+	<div class="clear-both"></div>
+</section>

@@ -1,0 +1,33 @@
+/* Do not remove the comments below. It's the markers used by wiredep to inject
+   less dependencies when defined in the bower.json of your dependencies */
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+body {
+  margin: 0; }
+
+header#top {
+  background-color: #200e2f;
+  color: white;
+  padding: 20px 0px;
+  height: 25px; }
+  header#top .main-logo {
+    font-size: 30px; }
+    header#top .main-logo a {
+      color: white; }
+  header#top ul {
+    margin: 0; }
+    header#top ul li {
+      list-style-type: none; }
+      header#top ul li a {
+        color: white; }
+
+div.hero {
+  background-image: url(../images/hero.png);
+  color: white;
+  width: 100vw;
+  height: 65vh;
+  background-color: #200e2f;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  margin: 0;
+  margin-bottom: 40px; }
